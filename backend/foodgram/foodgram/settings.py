@@ -10,6 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #SECRET_KEY = 'gcm_4tkhv^8bul%ltd%0zbdjxgl&nl@ew8p-#h=44w_5mxz(*t'
 SECRET_KEY = os.getenv(key='SECRET_KEY')
 
+
 DEBUG = os.getenv('DEBUG', default='True')
 
 ALLOWED_HOSTS = ['51.250.109.14', '127.0.0.1', 'localhost', 'backend:8000', 'backend']
