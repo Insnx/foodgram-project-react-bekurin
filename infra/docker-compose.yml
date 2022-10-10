@@ -11,7 +11,7 @@ services:
     restart: always
 
   backend:
-    image: insanex/foodgram-backend-bekurin:latest
+    build: ../backend/foodgram/
     restart: always
     volumes:
       - static_value:/app/static/
